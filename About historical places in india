@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places in India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .place-card {
+            width: 600px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 10px 10px 10px ;
+            background-color: rgb(132, 128, 133);
+        }
+
+        .place-image {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 10px 10px 10px  ;
+            background-color: cadetblue;
+        }
+
+        .place-description {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: #f4f4f4;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-family: cursive;
+            
+        }
+        img{
+            border-radius: 10px;
+            margin: 50px;
+            box-shadow: 10px 20px 20px ;
+        }
+    </style>
+</head>
+<body>
+
+    <header >
+        <h1>Historical Places in India</h1>
+    </header>
+        <div class="place-card">
+            <img  src="http://tinyurl.com/2rrebads" width="500px" >
+            <div class="place-description">
+                <h2>Taj Mahal</h2>
+                <p>The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage". It is regarded by many as the best example of Mughal architecture and a symbol of India's rich history. The Taj Mahal attracts 7-8 million visitors a year,[8] and in 2007 it was declared a winner of the New 7 Wonders of the World (2000–2007) initiative.</p>
+            </div>
+        </div>
+        
+        <div class="place-card">
+            <img  src="https://www.india-a2z.com/images/Red-fort1.jpg" width="500px">
+            <div class="place-description">
+                <h2>Red Fort</h2>
+                <p>Delhi's most famous monument, the Red Fort stands as a powerful reminder of the Mughal emperors who ruled India. The fort is more than 350 years old. It has withstood the turbulent trials and tribulations of time—and attack—to be the setting of some of India's most important historical events that shaped the country. The fort's Old Delhi location, opposite Chandni Chowk, is fascinating as well. A sound and light show is held there in the evenings. Recent restoration of the shopfronts in the fort's Meena Bazaar and the addition of a new museum complex dedicated to India's freedom fighters has drawn more local Indian visitors, thus increasing footfall at the fort.</p>
+            </div>
+        </div>
+        
+        <div class="place-card">
+            <img src="http://tinyurl.com/ms9ykp2w" width="500px">
+            <div class="place-description">
+                <h2>Golconda Fort</h2>
+                <p>One of the top forts in India, Golconda Fort is a popular day trip from Hyderabad. It was founded as a mud fort by the Kakatiya Kings of Waranga in the 13th century. However, its heyday was during the reign of the Qutub Shahi dynasty in the 16th century, before they shifted their capital to Hyderabad. Later, during the 17th century, Golconda Fort rose to prominence for its diamond market. Some of the world's most priceless diamonds were found in the area.</p>
+            </div>
+        </div>
+        
+        <div class="place-card">
+            <img src="https://www.thehistoryhub.com/wp-content/uploads/2014/04/Ellora-Caves-Pictures.jpg" width="500px">
+            <div class="place-description">
+                <h2>Ellora and Ajanta Caves</h2>
+                <p>Astonishingly carved into hillside rock in the middle of nowhere are the Ajanta and Ellora caves. Both are an important UNESCO World Heritage site. There are 34 caves at Ellora dating from between the 6th and 11th centuries AD, and 29 caves at Ajanta dating back to between the 2nd century BC and 6th century AD. The caves at Ajanta are all Buddhist, while the caves at Ellora are a mixture of Buddhist, Hindu and Jain. The incredible Kailasa Temple (also known as the Kailash Temple), which forms Cave 16 at Ellora, is the most astonishing attraction. Its immense size covers twice the area of the Pantheon in Athens, and is one and a half times as high! The life-size elephant sculptures are a highlight. </p>
+        
+     <footer>
+        <p>Designed by Pavitra</p>
+    </footer>
+
+</body>
+</html>
